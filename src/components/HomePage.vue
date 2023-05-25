@@ -1,6 +1,6 @@
 <template>
-    <div class="h-600 w-full flex items-center justify-center bg-teal-lightest font-sans">
-      <div class="bg-gray-800 rounded shadow p-6 m-4 w-full lg:w-3/4 lg:max-w-full">
+    <div class="w-full flex items-center justify-center bg-teal-lightest font-sans">
+      <div class="bg-gray-500 rounded shadow p-6 m-4 w-full lg:w-3/4 lg:max-w-full bg-opacity-20 ">
             <div class="mb-4">
                 <h1 class="text-white font-bold text-3xl">Todo List</h1>
                 <div class="flex mt-4">
@@ -22,7 +22,6 @@
                     }" class="flex-no-shrink p-2 ml-2 border-2 rounded text-red-600 border-red-600 hover:text-white hover:bg-red-600">Remove</button>
                 </div>
             </div>
-            <RouterLink to="/chat">Chat</RouterLink>
         </div>
         
   </div>
